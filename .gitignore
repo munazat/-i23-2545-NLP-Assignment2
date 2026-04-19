@@ -13,8 +13,10 @@ __pycache__/
 Thumbs.db
 .DS_Store
 
-# Large model files (will be added selectively)
+# Large binary files
 *.pkl
+embeddings/ppmi_matrix.npy
+embeddings/tfidf_matrix.npy
 
 # Temp files
 *.tmp
